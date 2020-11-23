@@ -14,15 +14,31 @@ public class Enemy {
     private int attack;
     private boolean dead;
 
+    /**
+     * 敵の名前のアクセサ
+     * @return　String name
+     */
     public String getName(){
         return this.name;
     }
+    /**
+     * 敵の体力のアクセサ
+     * @return　int hitPoint
+     */
     public int getHitPoint(){
         return this.hitPoint;
     }
+    /**
+     * 敵の攻撃力のアクセサ
+     * @return　int attack
+     */
     public int getAttack(){
         return this.attack;
     }
+    /**
+     * 敵の生死のアクセサ
+     * @return　boolean　dead
+     */
     public boolean getDead(){
         return this.dead;
     }

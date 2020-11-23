@@ -14,15 +14,31 @@ public class Hero {
     private int attack;
     private boolean dead;
 
+    /**
+     * 勇者の名前のアクセサ
+     * @return String name
+     */
     public String getName(){
         return this.name;
     }
+    /**
+     * 勇者の体力のアクセサ
+     * @return int hitPoint
+     */
     public int getHitPoint(){
         return this.hitPoint;
     }
+    /**
+     * 勇者の攻撃力のアクセサ
+     * @return int attack
+     */
     public int getAttack(){
         return this.attack;
     }
+    /**
+     * 勇者の生死のアクセサ
+     * @return boolean dead
+     */
     public boolean getDead(){
         return this.dead;
     }
